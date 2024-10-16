@@ -1,2 +1,4 @@
 # Ignoriere PHP-Dateien mit sensiblen Daten
 /templates/
+/img/
+/media/
