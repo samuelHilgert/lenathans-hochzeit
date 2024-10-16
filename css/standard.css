@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.section-style {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pad-x {
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.pad-y {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.pad-y-top {
+    padding-top: 120px;
+    padding-bottom: 0px;
+}
+
+.pad-y-bottom {
+    padding-top: 0px;
+    padding-bottom: 120px;
+}
+
+.space-xs {
+    height: 1px;
+}
+
+.space-s {
+    height: 20px;
+}
+
+.space-m {
+    height: 50px;
+}
+
+.space-l {
+    height: 80px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.gap-80 {
+    gap: 80px;
+}
+
+.gap-100 {
+    gap: 100px;
+}
+
+p {
+    max-width: 64ch;
+    /* Normwert */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d_f_c_c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d_f_fs_c {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.d_f_fe_c {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.d_f_c_fs {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.d_c_c_c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.d_c_fs_c {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.d_c_c_fs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.d_c_fe_c {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.d_c_c_fe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.bg-color-white {
+    background-color: white;
+}
+
+.div-filter {
+    filter: brightness(60%);
+    width:100%;
+    box-sizing: border-box;
+}
+
+.list-style {
+    list-style: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+/**** ELEMENTE ****/
+
+/* heller Button */
+
+.btn-light {
+    background-color: rgb(251, 249, 248);
+    border: 1px solid rgb(124, 109, 101);
+    color: rgb(64, 64, 64);
+    border-radius: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 0;
+    cursor: pointer;
+    width: 250px;
+}
+
+.btn-light:visited {
+    background-color: rgb(251, 249, 248);
+    border: 1px solid rgb(124, 109, 101);
+    color: rgb(64, 64, 64);
+}
+
+.btn-light:hover {
+    background-color: rgb(124, 109, 101);
+    border: 1px solid rgb(251, 249, 248);
+    color: white;
+}
+
+/* dunkler Button */
+
+.btn-dark {
+    background-color: rgb(124, 109, 101);
+    border: 1px solid rgb(251, 249, 248);
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 0;
+    cursor: pointer;
+    width: 200px;
+}
+
+.btn-dark:visited {
+    background-color: rgb(124, 109, 101);
+    border: 1px solid rgb(251, 249, 248);
+    color: white;
+}
+
+.btn-dark:hover {
+    background-color: rgb(251, 249, 248);
+    border: 1px solid rgb(124, 109, 101);
+    color: rgb(64, 64, 64);
+}
+
+/* heller Button (klein) */
+
+.btn-small-light {
+    background-color: rgb(251, 249, 248);
+    border: 1px solid rgb(124, 109, 101);
+    color: rgb(64, 64, 64);
+    border-radius: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 0;
+    cursor: pointer;
+    width: 100px;
+}
+
+.btn-small-light:visited {
+    background-color: rgb(251, 249, 248);
+    border: 1px solid rgb(124, 109, 101);
+    color: rgb(64, 64, 64);
+}
+
+.btn-small-light:hover {
+    background-color: rgb(124, 109, 101);
+    border: 1px solid rgb(251, 249, 248);
+    color: white;
+}
+
+/* helles Inputfield */
+
+.input-light {
+    background-color: rgb(251, 249, 248);
+    border: 1px solid rgb(124, 109, 101);
+    border-radius: 5px;
+    padding: 15px 0;
+    width: 380px;
+    text-align: center;
+}
+
+/* helles Inputfield (klein) */
+
+.input-small-light {
+    background-color: rgb(251, 249, 248);
+    border: 1px solid rgb(124, 109, 101);
+    border-radius: 5px;
+    padding: 15px 0;
+    width: 65px;
+    text-align: center;
+}
+
+/* helles Textfeld */
+
+.textarea-light {
+    background-color: rgb(251, 249, 248);
+    border: 1px solid rgb(124, 109, 101);
+    border-radius: 5px;
+    padding: 15px 0;
+    width: 380px;
+    height:180px;
+    text-align: center;
+}
+
+
+/* dunkle Trennlinie */
+.line {
+    height: 2px;
+    background-color: rgba(145, 145, 145);
+    margin-top:130px;
+    width:100%;
+    box-sizing: border-box;
+}

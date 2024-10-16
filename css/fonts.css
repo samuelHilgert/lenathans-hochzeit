@@ -1,0 +1,132 @@
+
+@font-face {
+    font-family: 'Cormorant-Garamond-regular';
+    src: url('../fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-italic';
+    src: url('../fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 0.8px;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(64, 64, 64);
+    line-height: normal;
+}
+
+.headline {
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.second-headline {
+    font-family: "Cormorant-Garamond-regular", serif;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Cormorant-Garamond-regular", serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 8px;
+    font-size: 56px;
+    margin: 0;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(64, 64, 64);
+    font-family: "Cormorant-Garamond-regular", serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 4px;
+    margin: 0;
+    font-size: 32px;
+    text-transform: uppercase;
+    hyphens: auto;
+    word-wrap: break-word; 
+}
+
+.h2-underline {
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgb(64, 64, 64);
+}
+
+h3 {
+    color: rgb(64, 64, 64);
+    font-family: "Raleway", serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 4px;
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+    hyphens: auto;
+    word-wrap: break-word; 
+}
+
+p {
+    line-height:26px;
+}
+
+.a-style {
+    font-weight: normal;
+    cursor: pointer;
+    color: rgb(201, 139, 59)
+        /* color: rgba(124,109,101, 0.8); */
+}
+
+.a-style:visited {
+    font-weight: normal;
+    color: rgb(201, 139, 59);
+}
+
+.a-style:hover {
+    font-weight: normal;
+    color: rgb(221, 202, 176);
+    text-decoration: underline;
+}
+
+.a-style-alt {
+    font-weight: normal;
+    color:white;
+}
+
+.a-style-alt:visited {
+    font-weight: normal;
+    color:white;
+}
+
+.a-style-alt:hover {
+    font-weight: normal;
+    color: rgb(221, 202, 176);
+    text-decoration: underline;
+}

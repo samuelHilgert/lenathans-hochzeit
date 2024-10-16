@@ -1,0 +1,7 @@
+
+# Verbieten aller rechtlichen Seiten 
+
+User-agent: *
+Disallow: /index.html
+Disallow: /galerie.html
+Disallow: /download.html

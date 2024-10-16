@@ -1,0 +1,302 @@
+/* HEADER */
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    position: absolute;
+}
+
+.nav-topline {
+    gap: 100px;
+}
+
+.nav-topline a {
+    font-family: 'Cormorant-Garamond', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 14px;
+    white-space: nowrap;
+    color: rgb(103, 103, 103);
+    cursor: pointer;
+}
+
+.nav-topline a:visited {
+    color: rgb(103, 103, 103);
+}
+
+.nav-topline a:hover {
+    color: rgb(201, 139, 59);
+}
+
+#burgerIcon {
+    display: none;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgba(124, 109, 101, 0.8);
+    padding: 100px 80px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav-footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    padding-inline-start: 0;
+}
+
+.nav-footer a {
+    font-family: 'Cormorant-Garamond', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nav-footer a:visited {
+    color: white;
+}
+
+.nav-footer a:hover {
+    text-transform: uppercase;
+    color: rgb(221, 202, 176);
+    text-decoration: underline;
+}
+
+.page-author {
+    margin-top: 40px;
+    color: white;
+}
+
+/* SECTION BACKGROUND STYLES */
+.bg-color-v2 {
+    background-color: rgb(251, 249, 248);
+}
+
+.bg-color-v1 {
+    background-color: rgb(237, 232, 230);
+}
+
+
+/**** SECTIONS *+***/
+/**** AOT *+***/
+.aot {
+    background: url('../img/aot.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position-y: 100%;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.aot-filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* SECTION HEADER (AUSGELAGERT) */
+
+
+/* SECTION LOGIN */
+.login {
+    border: 1px solid rgb(124, 109, 101);
+    width: 60%;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+
+/* SECTION ZUSAGEN */
+
+
+/* SECTION LOCATION */
+.googleMaps {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    height: 450px;
+    width: 98%;
+    border: 0;
+}
+
+/* SECTION ABOUT US */
+
+.about-us-div {
+    padding: 0 80px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.box-500-500 {
+    height: auto;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content-box-500-500 {
+    padding: 40px 15px;
+    width: 80%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.about-us-img-div {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.about-us-img {
+    object-fit: cover;
+    width: 80%;
+    max-width: 100%;
+    /* Begrenzt die Breite auf 100% des Elternelements */
+    box-sizing: border-box;
+    height: auto;
+}
+
+
+/* SECTION WISHLIST */
+
+.wish-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* SECTION SONSTIGES */
+
+
+/* SECTION IMGAGE DIV */
+.section-image-div {
+    background: url('../img/wedding.JPG');
+    width: 100%;
+    box-sizing: border-box;
+    height: 450px;
+    object-fit: cover;
+    background-position-y: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* SECTION CONTACT */
+
+/* SECTION VIDEO */
+.video-home {
+    width: 100%;
+    box-sizing: border-box;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+/* POPUP */
+.popup-style {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    /* Mit width und height wird die Größe des Filters über dem Bildschirm bestimmt */
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.popup-content-style {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* transform wird oft verwendet, um ein Element in der Mitte eines anderen Elements zu zentrieren. Hier ist, was es macht: */
+    background-color: rgb(251, 249, 248);
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content-style h3 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.popup-content-style p {
+    margin: 0;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#popupCloseButton a {
+    color: rgb(64, 64, 64);
+    cursor: pointer;
+}
+
+.popup-link {
+    padding: 15px;
+}
+
+#showMoreOption {
+    text-align: center;
+}
+
+/* ACTIVATE CONTENT */
+#popupFrame {
+    display: none;
+}
+
+#showAskIfUber {
+    display: none;
+}
+
+#activatedByNeedDriver {
+    display: none;
+}
+
+#activatedByDontNeedDrive {
+    display: none;
+}
+
+#activatedByGiveSeats {
+    display: none;
+}
+
+#activatedByComeAsWell {
+    display: none;
+}
+
+#activatedByCanNotEatAll {
+    display: none;
+}
+
+#messageForComeNotComeDiv {
+    display: none;
+}
+
+.activateContentAfterLogin {
+    display: none;
+}
+
+.deactivateContentAfterLogin {
+    display: flex;
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <meta charset="UTF-8">
+    <title>Lenathans Hochzeit</title>
+    <link rel="icon" href="./img/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+
+    <script src="./js/script.js"></script>
+
+    <link rel="stylesheet" href="./css/standard.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+
+<body onload="render()">
+
+    <!-- SECTION AOT -->
+    <section class="section-style aot">
+        <div class="aot-filter d_c_c_c pad-x">
+            <header class="d_f_c_c bg-color-white">
+                <div id="burgerIcon" onclick="burgerMenu()">&#x2630;</div>
+                <nav id="burgerMenu">
+                    <ul class="list-style d_f_c_c nav-topline mobile-nav" id="burgerUl">
+                        <li class="homeLink"><a href="./index.html">Start</a></li>
+                        <li class="deactivateContentAfterLogin"><a href="#anchor-login">Anmelden</a></li>
+                        <li class="activateContentAfterLogin"><a href="#anchor-zusagen">Zusagen</a></li>
+                        <li class="activateContentAfterLogin" id="headerLinkAfterLogin"></li>
+                        <li class="activateContentAfterLogin"><a href="#sectionHotels">Unterkünfte</a></li>
+                        <li><a href="#anchor-contact">Kontakt</a></li>
+                        <li class="activateContentAfterLogin"><a onclick="logOut()">Abmelden</a></li>
+                    </ul>
+                </nav>
+              </header>
+              <div class="d_c_fe_c">
+                <h1>Magdalena & Jonathan</h1>
+                <span class="headline">Wir wollen mit euch feiern!</span>
+                <span class="second-headline">13. Juli 2024</span>
+              </div>
+        </div>
+    </section>
+
+    <!-- SECTION LOGIN  -->
+    <section class="section-style d_c_c_c pad-y pad-x text-center deactivateContentAfterLogin" id="anchor-login">
+        <div class="login d_c_c_c gap-40" id="loginHidden">
+            <h2>Anmelden</h2>
+            <p>Um weitere Inhalte zu sehen, melde dich hier an.
+                Das Passwort hast du von uns mit der Einladungskarte erhalten.</p>
+            <div id="loginformContent"></div>
+            <p>Du hast Probleme dich anzumelden? <a class="a-style" href="#anchor-contact">Dann schreibe uns eine
+                    Nachricht.</a></p>
+        </div>
+    </section>
+
+
+    <!-- SECTION ZUSAGEN  -->
+    <section class="section-style d_c_c_c pad-y pad-x bg-color-v2 activateContentAfterLogin" id="anchor-zusagen">
+        <div id="zusageformContent"></div>
+    </section>
+
+
+    <!-- SECTION ABOUT US  -->
+    <section class="section-style pad-y pad-x bg-color-v2 activateContentAfterLogin" id="anchor-about-us">
+        <div class="about-us-div gap-40 d_c_c_c">
+            <div class="about-us-img-div d_f_c_c box-500-500">
+                <img class="about-us-img" src="./img/together.png" alt="Das sind wir">
+            </div>
+            <div class="box-500-500 d_f_c_c">
+                <div class="content-box-500-500 d_c_c_c bg-color-white pad-x gap-20 text-center" id="aboutUSText"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECTION LOCATION  -->
+    <section class="section-style d_c_c_c pad-y pad-x bg-color-v1 activateContentAfterLogin" id="sectionLocation">
+        <div class="d_c_c_c">
+            <div class="h2-underline">
+                <h2 id="anchor-locations">Locations</h2>
+            </div>
+        </div>
+        <div class="d_f_c_fs gap-100 text-center location-mobile">
+            <div class="d_c_c_c gap-20" id="TrauungText"></div>
+            <div class="d_c_c_c gap-20" id="FeierText"></div>
+        </div>
+    </section>
+
+    <!-- SECTION WISHLIST  -->
+    <section class="section-style  d_c_c_c pad-y pad-x bg-color-v2 activateContentAfterLogin" id="sectionWishlist">
+        <div class="d_c_c_c gap-20" id="wishlistContent"></div>
+    </section>
+
+
+    <!-- SECTION SONSTIGES  -->
+    <section class="section-style  d_c_c_c pad-y pad-x bg-color-white activateContentAfterLogin" id="sectionFeier">
+        <div class="d_c_c_c gap-20 text-center" id="sonstigesContent"></div>
+        <div class="line"></div>
+    </section>
+
+
+    <!-- SECTION ÜBERNACHTUNGEN  -->
+    <section class="section-style d_c_c_c pad-y-bottom pad-x bg-color-white activateContentAfterLogin" id="sectionHotels">
+        <div class="d_c_c_c gap-20 text-center" id="hotelsContent"></div>
+        <div class="line"></div>
+    </section>
+
+
+    <!-- SECTION IMAGE  -->
+    <section class="section-style pad-y-bottom pad-x bg-color-white activateContentAfterLogin">
+        <div class="section-image-div"></div>
+        <div class="space-m">&nbsp;</div>
+        <div class="d_f_c_c text-center" id="imageContent"></div>
+    </section>
+
+
+    <!-- SECTION CONTACT  -->
+    <section class="section-style">
+        <div class="contact pad-y pad-x d_c_c_c text-center bg-color-v2" id="anchor-answerContactForm">
+            <h2 id="anchor-contact">Kontakt</h2>
+            <div class="space-s">&nbsp;</div>
+            <p>Du hast Fragen oder ein Anliegen? Dann schreibe uns eine Nachricht.
+                Wir werden uns in Kürze bei dir melden.</p>
+            <div class="space-s">&nbsp;</div>
+            <div id="contactformContent"></div>
+        </div>
+    </section>
+
+
+    <!-- SECTION VIDEO  -->
+    <section class="section-style activateContentAfterLogin" id="sectionVideoMobile">
+        <div class="d_c_c_fe div-filter" id="videoContent">
+        </div>
+    </section>
+
+
+    <!-- Dies ist ein Popup-Fenster für alle Meldungen -->
+    <div class="popup-style" id="popupFrame">
+        <div class="popup-content-style" id="popupContent">
+            <span id="popupCloseButton"><a class="a-style" onclick="closeButtonPopup()">X</a></span>
+            <h3 id="popupTitle"></h3>
+            <div class="space-s">&nbsp;</div>
+            <p id="popupText"></p>
+            <div class="gap-20" id="showMoreOption"></div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="section-style" id="footerContent">
+        <nav class="nav-footer">
+            <ul>
+                <li class="homeLink"><a href="#">Home</a></li>
+                <li class="deactivateContentAfterLogin"><a href="#anchor-login">Anmelden</a></li>
+                <li class="activateContentAfterLogin"><a href="#anchor-zusagen">Zusagen</a></li>
+                <li class="activateContentAfterLogin" id="footerLinkAfterLogin"></li>
+                <li class="activateContentAfterLogin"><a href="#sectionHotels">Unterkünfte</a></li>
+                <li><a href="#anchor-contact">Kontakt</a></li>
+                <li class="activateContentAfterLogin"><a onclick="logOut()">Abmelden</a></li>
+            </ul>
+          </nav>
+          <div class="page-author d_f_c_c text-center"><p><a class="a-style-alt" href="https://www.samuelhilgert.com" target="_blank">designed by Samuel Hilgert</a></p></div>
+    </footer>
+
+    <script>
+
+        /*************   IF USER LOGGED   ***********/
+
+        // Was soll passieren, wenn man grundsätzlich schon angemeldet ist
+        if (sessionStorage.getItem('loggedIn') === '%klsajsdkjlkas2993012039!394sjkxma') {
+            renderAfterLogin();
+            hideElementsAfterLogin();
+        }
+
+        /*************   LOGIN FORM AND PHP PARAMETERS   ***********/
+
+        // Auslesen der URL-Parameter
+        let urlParams = new URLSearchParams(window.location.search);
+
+        // Entsprechende HTML Tags für Popup Meldungen holen
+        let popupTitle = document.getElementById('popupTitle');
+        let popupText = document.getElementById('popupText');
+        let showMoreOption = document.getElementById('showMoreOption');
+        popupTitle.innerHTML = ``;
+        popupText.innerHTML = ``;
+        showMoreOption.innerHTML = ``;
+
+        // Überprüfen, ob eine Erfolgsmeldung vorhanden ist
+        // Was soll passieren, wenn die Efolgsmeldung vorliegt
+        if (urlParams.has('success_message')) {
+            // Hinzufügen des Schlüssel-Wert-Paars zur sessionStorage
+            sessionStorage.setItem('loggedIn', '%klsajsdkjlkas2993012039!394sjkxma');
+            popupTitle.innerHTML = `Anmeldung war erfolgreich!`;
+            popupText.innerHTML = `Deine Anmeldung war erfolgreich, wir haben dir soeben weitere Inhalte freigeschaltet! :)`;
+            showMoreOption.innerHTML = `<a class="btn-light popup-link" href="./index.html">Okay!</a>`;
+            displayPopupOneTime();
+            backToHome();
+        }
+        if (urlParams.has('success_mail_message')) {
+            popupTitle.innerHTML = `Nachricht erfolgreich gesendet!`;
+            popupText.innerHTML = `Deine Nachricht wurde erfolgreich an uns gesendet. Wir werden uns in Kürze bei dir melden. :)`;
+            showMoreOption.innerHTML = `<a class="btn-light popup-link" href="./index.html">Okay!</a>`;
+            displayPopupOneTime();
+            backToHome();
+        }
+        if (urlParams.has('success_feedback_message')) {
+            popupTitle.innerHTML = `Rückmeldung erfolgreich!`;
+            popupText.innerHTML = `Deine Rückmeldung wurde erfolgreich an uns gesendet :)`;
+            showMoreOption.innerHTML = `<a class="btn-light popup-link" href="./index.html">Okay!</a>`;
+            displayPopupOneTime();
+            backToHome();
+        }
+
+        // Überprüfen, ob ein Fehler vorliegt
+        // Was soll passieren, wenn ein Fehler vorliegt
+        if (urlParams.has('error_message')) {
+            popupTitle.innerHTML = `Anmeldung nicht erfolgreich!`;
+            popupText.innerHTML = `Deine Anmeldung war leider nicht erfolgreich. Bitte versuche es gleich nochmal.`;
+            showMoreOption.innerHTML = `<a class="btn-light popup-link" href="./index.html">Okay!</a>`;
+            displayPopupOneTime();
+            backToHome();
+        }
+        if (urlParams.has('error_mail_message')) {
+            popupTitle.innerHTML = `Nachricht nicht erfolgreich gesendet!`;
+            popupText.innerHTML = `Deine Nachricht konnte leider nicht an uns gesendet werden. Probiere es gleich nochmal.`;
+            showMoreOption.innerHTML = `<a class="btn-light popup-link" href="./index.html">Okay!</a>`;
+            displayPopupOneTime();
+            backToHome();
+        }
+        if (urlParams.has('error_feedback_message')) {
+            popupTitle.innerHTML = `Rückmeldung nicht erfolgreich!`;
+            popupText.innerHTML = `Deine Rückmeldung konnte leider nicht an uns gesendet werden. Probiere es gleich nochmal.`;
+            showMoreOption.innerHTML = `<a class="btn-ligh popup-link" href="./index.html">Okay!</a>`;
+            displayPopupOneTime();
+            backToHome();
+        }
+
+    </script>
+</body>
+
+</html>

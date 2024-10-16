@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+
+    <meta charset="UTF-8" />
+    <title>Lenathans Galerie</title>
+    <link rel="icon" href="data:," type="image/x-icon" />
+    <!-- <link rel="shortcut icon" href="" type="image/x-icon"> -->
+
+    <script src="./js/gallery.js"></script>
+
+    <link rel="stylesheet" href="./css/standard.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/gallery.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+
+  <body onload="render(); adjustImageWidth(); checkURLParameter()" id="content">
+    <header class="d_f_c_c mobile-header">
+      <h2 id="titleText">Lenathans Galerie</h2>
+      <div class="header pad-x-10 d_f_c_c">
+        <!-- <div class="search-div d_f_c_c gap-20 pad-x-20" id="searchDiv">
+                <span class="search-icon" onclick="searchPhoto()">&#128269;</span>
+                <input class="input-header-style" type="text" placeholder="Suchen" id="searchInput"
+                    oninput="getSearchWordByEnter()">
+                <div class="d-search-close" id="dSearchClose" onclick="deleteInputSearch()">X</div>
+            </div> -->
+      </div>
+      <!-- <span class="change-design d_f_c_c" onclick="blackDesign()" id="changeDesign">&#x263C;</span> -->
+    </header>
+
+    <!-- <div class="width-max d_f_c_c album-download"><a class="a-style" onclick="forwardToDownloads()">Fotos herunterladen</a></div>
+    <div id="imagesContainer"></div> -->
+
+    <!-- <section class="section-photos">
+        <div class="photo-container">
+            <div class="photo-box" id="photoContainer"></div>
+        </div>
+    </section> -->
+
+    <!-- SECTION LINKS ZUR EXTERNEN GALERIE  -->
+    <section
+      class="section-style d_c_c_c pad-y pad-x bg-color-white activateContentAfterLogin">
+      <div class="d_c_c_c gap-20 text-center">
+        <p><a class="a-style" href="https://mia.nl.tab.digital/s/MPMcajtF54XpS3j" target="_blank">Alle Hochzeitsfotos</a></p>
+        <p><a class="a-style" href="https://apps.scrappbook.de/HknlK1esR" target="_blank">Ausgewählte Hochzeitsfotos</a></p>
+        <p><a class="a-style" href="https://1drv.ms/f/c/26d7172e68f940dd/Et1A-WguF9cggCZmAQAAAAABVUfz0dBWDpZS_iDqXGMMZA?e=OC7Vx8" target="_blank">Fotos der Fotobox</a></p>
+
+        <div class="space-m">&nbsp;</div>
+
+        <p><a class="a-style a-style-galery" href="https://lenathans-hochzeit.de/index.html">Zurück zur Startseite</a></p>
+
+      </div>
+
+    </section>
+  </body>
+</html>
