@@ -7,11 +7,11 @@ function render() {
   let contactformContent = document.getElementById('contactformContent');
 
   headerLinkAfterLogin.innerHTML = `
-  <a href="./galerie.html">Galerie</a>
+  <a href="./galerie.html">Hochzeitsfotos</a>
   `;
 
   footerLinkAfterLogin.innerHTML = `
-  <a href="./galerie.html">Galerie</a>
+  <a href="./galerie.html">Hochzeitsfotos</a>
   `;
 
   loginformContent.innerHTML = `
