@@ -327,7 +327,7 @@ Außerdem ist der christliche Glaube ein zentraler Bestandteil in unserem Alltag
   `;
 
   imageContent.innerHTML = `
-  <a class="a-style" href="./galerie.html" target="_blank">weitere Fotos ansehen</a>
+  <a class="a-style" href="./galerie.html">weitere Fotos ansehen</a>
   `;
   getWishesFromServer();
   setTimeout(renderVideo, 2000); // um der Seite noch einmal etwas mehr Zeit zu geben, wird das Video verspätet geladen, auch weil sich es ganz unten befindet.
