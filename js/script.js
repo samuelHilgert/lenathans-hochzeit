@@ -17,6 +17,7 @@ function render() {
   loginformContent.innerHTML = `
 <form class="d_c_c_c gap-30" id="passwordForm" method="post" action="./templates/process_form_login.php">
     <label for="password">Passwort:</label>
+    <p>Das Passwort lautet: frei</p>
     <input class="input-light" type="password" name="password" id="password" required>
     <button class="btn-dark" type="submit">Anmelden</button>
   </form>
@@ -211,11 +212,10 @@ function renderAfterLogin() {
 
   aboutUSText.innerHTML = `
 <h2>Wer wir sind?</h2>
-<p>„Wir sind Lena und Jonathan, zur Zeit leben wir in Esslingen-Zell, nur einen Steinwurf vom alten Neckar entfernt.
-Kennengelernt haben wir uns in Darmstadt, wo wir uns kurz vor dem Lockdown das erste mal zu zweit getroffen haben. Daraufhin folgten regelmäßige Jogging-Verabredungen, gemeinsames Kochen und Ausflüge in das Darmstädter Umland. Sport machen wir immernoch gerne und seit Januar schwingen wir auch gemeinsam das Tanzbein (mehr oder weniger erfolgreich - aber überzeugt euch selbst). Auch das gemeinsame Kochen hat sich bis heute durchgezogen.
+<p>„Wir sind Lena und Jonathan, zur Zeit leben wir in Cuxhaven, nur einen Steinwurf vom Meer entfernt.
+Kennengelernt haben wir uns in Hamburg, wo wir uns kurz vor dem Lockdown das erste mal zu zweit getroffen haben. Daraufhin folgten regelmäßige Jogging-Verabredungen, gemeinsames Kochen und Ausflüge in und um Hamburg. Sport machen wir immernoch gerne und seit Januar schwingen wir auch gemeinsam das Tanzbein (mehr oder weniger erfolgreich - aber überzeugt euch selbst). Auch das gemeinsame Kochen hat sich bis heute durchgezogen.
 Trotzdem haben wir natürlich nichts dagegen, ab und an lokale Restaurants zu unterstützen.
-Über Holland, Aachen und Portugal hat es uns von Darmstadt nach Esslingen verschlagen. Von dort kann Lena ihren Master in Elektrotechnik abschließen und Jonathan Wärmepumpen bei Bosch entwickeln.
-Außerdem ist der christliche Glaube ein zentraler Bestandteil in unserem Alltag. So sind wir uns nicht nur das erste Mal in einem Gottesdienst begegnet, sondern besuchen auch hier in Esslingen eine Kirchengemeinde. Und natürlich freuen wir uns, nach der standesamtlichen Trauung letzten September, jetzt die für uns entscheidende kirchliche Hochzeit mit euch zu feiern!"
+Über Holland hat es uns von Düsseldorf nach Cuxhaven verschlagen. Von dort kann Lena ihren Master in Medizintechnik abschließen und Jonathan Motoren für Mercedes-Benz entwickeln."
 </p>
 <p>Liebe Grüße, Lena & Jonathan</p>
 `;
@@ -223,12 +223,13 @@ Außerdem ist der christliche Glaube ein zentraler Bestandteil in unserem Alltag
   TrauungText.innerHTML = `
 <div class="space-m">&nbsp;</div>
                 <h3>Trauung</h3>
-                <p>Beginn: 13:00 Uhr<br>
-                    Evangelische Kirche Wehrheim<br>
-                    Hauptstraße 10, 61273 Wehrheim<br>
-                    (Parkplatz: Am Bürgerhaus 1, Wehrheim)</p>
+                <p>Beginn: 11:00 Uhr<br>
+                    Evangelische Kirche Hamburg<br>
+                    Rübenkamp 1, 22305 Hamburg<br>
+                    (Parkplatz: Am EDEKA)</p>
                 <iframe class="googleMaps"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1235.0531570463354!2d8.570852465099238!3d50.30374473867057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bdab69a10e5589%3A0x56f81b85388e5d00!2sEvangelische%20Kirche%20Wehrheim%20-%20Evangelische%20Kirchengemeinde%20Wehrheim!5e0!3m2!1sde!2sgr!4v1707251259061!5m2!1sde!2sgr"
+                    src="
+                    https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.7416792511985!2d10.0516501!3d53.5921957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b189c96460fb73%3A0x7ad539766ca76cfb!2sAuferstehungskirche%20-%20Ev.-luth.%20Kirchengemeinde%20Nord-Barmbek!5e1!3m2!1sde!2sde!4v1749887926069!5m2!1sde!2sde"
                     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 `;
 
@@ -236,11 +237,11 @@ Außerdem ist der christliche Glaube ein zentraler Bestandteil in unserem Alltag
 <div class="space-m">&nbsp;</div>
                 <h3>Feier</h3>
                 <p>Beginn: siehe Einladung<br>
-                    Holzbachtalhalle Friedrichsthal<br>
-                    Zwerchweg 1, 61273 Wehrheim<br>
+                    Waldparkhalle Hamburger Seehafen<br>
+                    Nordgasse 10, 22305 Hamburg<br>
                     &nbsp;</p>
                 <iframe class="googleMaps"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6288.768631510241!2d8.617591475255864!3d50.33976796704642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bdab4ef4268dcf%3A0xb3425b9c0ff449e6!2sHolzbachtalhalle!5e0!3m2!1sde!2sgr!4v1707250990893!5m2!1sde!2sgr"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4143.276380135561!2d9.983703650625298!3d53.542757380305225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18f028687554f%3A0x56bd2b5085d028be!2sSpeicherstadtmuseum!5e1!3m2!1sde!2sde!4v1749888951771!5m2!1sde!2sde"
                     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 `;
 
@@ -252,7 +253,7 @@ Außerdem ist der christliche Glaube ein zentraler Bestandteil in unserem Alltag
 <div class="space-xs">&nbsp;</div>
 <div class="d_c_c_fs gap-20" id="showWishes"></div>
 <div class="space-s">&nbsp;</div>
-<p class="text-center">Da in unserer Wohnung nicht so viel Platz ist, freuen wir uns außer der Gegenstände auf unserer Wunschliste über immaterielle Geschenke, wie z.B. gemeinsame Unternehmungen oder einen Beitrag zur Finanzierung unserer Hochzeitsreise nach Lettland.</p> 
+<p class="text-center">Da in unserer Wohnung nicht so viel Platz ist, freuen wir uns außer der Gegenstände auf unserer Wunschliste über immaterielle Geschenke, wie z.B. gemeinsame Unternehmungen oder einen Beitrag zur Finanzierung unserer Hochzeitsreise nach Norwegen.</p> 
 <p class="text-center">Gerne dürft ihr bei unseren Geschenken auch Abstriche machen und dafür etwas in die Kollekte am Ende des Gottesdienstes oder in die Spendenbox auf dem Geschenketisch werfen. Die Spenden sollen dem Hilfswerk <a class="a-style" href="https://www.gain-germany.org/" target="_blank">GAiN (Global Aid Network)</a> zugutekommen. GAiN setzt sich weltweit für Menschen in Not ein.</p>
 `;
 
@@ -263,14 +264,14 @@ Außerdem ist der christliche Glaube ein zentraler Bestandteil in unserem Alltag
             <div class="space-s">&nbsp;</div>
             <h3>Idee für einen Beitrag?</h3>
             <p>Über Beiträge zum Programm freuen wir uns.
-                Ansprechperson dafür ist Dana Jox: <a class="a-style" href="mailto:billi@jox.de">billi@jox.de</a>
+                Ansprechperson dafür ist Johanna Werle: <a class="a-style" href="mailto:mail@samuelhilgert.com">johanna@lenathans-hochzeit.de</a>
             </p>
             <div class="space-s">&nbsp;</div>
             <h3>Mitwirkung beim Buffet (nach der Trauung):</h3>
             <p>Falls ihr etwas Süßes oder Herzhaftes zum Buffet nach der Trauung beitragen wollt,
-                meldet euch bei Christa Schone:</p>
-            <p><a class="a-style" href="tel:06081-981127">06081-981127</a> | <a class="a-style"
-                    href="mailto:schone-family@t-online.de">schone-family@t-online.de</a></p>
+                meldet euch bei Susanne Werle:</p>
+            <p><a class="a-style" href="tel:0176-44476237">0176-44476237</a> | <a class="a-style"
+                    href="mailto:mail@samuelhilgert.com">susasnne@lenathans-hochzeit.de</a></p>
                     <div class="space-s"></div>
           `;
 
@@ -281,56 +282,34 @@ Außerdem ist der christliche Glaube ein zentraler Bestandteil in unserem Alltag
 </div>
 <div class="space-s"></div>
   <h3>Kostenpflichtige Übernachtungs-<br>
-  möglichkeiten:</h3>
+  möglichkeiten (von uns subventioniert):</h3>
 
   <div class="space-s"></div>
   <div class="d_c_c_c gap-20">
-  <p>Unterkünfte in Wehrheim direkt:</p>
-  <p><a class="a-style" href="https://www.limeshotel.de/?id=1&lang=de" target="_blank">Limes Hotel</a><br>
-  Bis zum 30.05. ist dort ein Kontingent reserviert. Daher am besten nicht über die
-  Website buchen, sondern eine E-Mail an <a class="a-style" href="mailto:info@limeshotel.de">info@limeshotel.de</a> schreiben. In der E-Mail sollte erwähnt werden, dass
-  auf das Kontingent von Anna Schone, zur Hochzeit von Lena und Jonathan, zugegriffen werden soll.
-  Dann gibt es auch 10% Preisnachlass :).</p>
-  <p><a class="a-style" href="https://taunus.info/uebernachten/pensionen-gasthoefe/pension-auwiese/534/" target="_blank">Pension Auwiese</a></p>
-  <p><a class="a-style" href="https://taunus.info/uebernachten/pensionen-gasthoefe/pension-jahnel/533/" target="_blank">Pension Jahnel in Wehrheim</a></p>
+  <p>Unterkünfte in Hamburg direkt:</p>
+  <p><a class="a-style" href="https://www.pierdrei-hotel.de" target="_blank">PIERDREI Hotel HafenCity Hamburg</a></p>
   </div>
 
   <div class="space-s"></div>
   <div class="d_c_c_c gap-20">
-  <p>Wehrheim-Obernhain:</p>
-  <p><a class="a-style" href="https://gasthaus-zum-taunus.de/" target="_blank">Gasthaus zum Taunus</a></p>
-  <p><a class="a-style" href="https://www.zum-engel-wehrheim.de/" target="_blank">Gasthaus zum Engel</a></p>
-  <p><a class="a-style" href="https://www.schlafen-im-dreiseithof.de/" target="_blank">Gasthaus Dreiseithof</a></p>
-  </div>
-
-  <div class="space-s"></div>
-  <div class="d_c_c_c gap-20">
-  <p>Wehrheim-Pfaffenwiesbach (nah am Ort der Feier):</p>
-  <p><a class="a-style" href="https://taunus.info/uebernachten/ferienwohnungen/apartments-ross/543/" target="_blank">Apartments Ross</a></p>
-  <p><a class="a-style" href="https://taunus.info/uebernachten/ferienwohnungen/ferienwohnung-im-weihergarten/219/" target="_blank">Ferienwohnung Im Weihergarten (für mind. 2 Übernachtungen)</a></p>
-  </div>
-
-  <div class="space-s"></div>
-  <div class="d_c_c_c gap-20">
-  <p><a class="a-style" href="https://taunus.info/uebernachten/?filter-city=wehrheim" target="_blank">Weitere kostenpflichtige Übernachtungsmöglichkeiten findet ihr hier</a></p>
+  <p>Hamburg-Hafen:</p>
+  <p><a class="a-style" href="https://ginn-hotels.com" target="_blank">GINN Hotel Hamburg Elbspeicher</a></p>
   </div>
 
   <div class="space-m"></div>
   <h3>Kostenfreie Übernachtungs-<br>
   möglichkeiten:</h3>
   <div class="d_c_c_c gap-20">
-  <p>Für kostenfreie Übernachtungen besteht das Angebot, bei gastfreundlichen Freunden von uns zu schlafen.
+  <p>Für kostenfreie Übernachtungen besteht das Angebot, in Zelten auf der Michelwiese zu übernachten. Die Zelte werden von uns gestellt.
   Kontaktiert uns dafür persönlich, per Handy, E-Mail, oder über das Kontaktformular.</p>
-  <p>Für alle, die ihr zu Hause auf vier Räder haben:<br>
-  <a class="a-style" href="https://taunus.info/uebernachten/camping/wohnmobilstellplatz-wiesenparkplatz-am-freibad-ludwig-bender-bad/805/" target="_blank">Wohnmobilstellplatz Wiesenparkplatz am Freibad "Ludwig-Bender-Bad"</a></p>
-  </div>
+  <p>Für alle, die ihr zu Hause auf vier Räder haben bietet sich die Michelwiese ebenfalls an. Hier gibt es sogar Frisch- und Abwasserstellen.</div>
   `;
 
   imageContent.innerHTML = `
   <a class="a-style" href="./galerie.html">weitere Fotos ansehen</a>
   `;
   getWishesFromServer();
-  setTimeout(renderVideo, 2000); // um der Seite noch einmal etwas mehr Zeit zu geben, wird das Video verspätet geladen, auch weil sich es ganz unten befindet.
+  // setTimeout(renderVideo, 2000); // um der Seite noch einmal etwas mehr Zeit zu geben, wird das Video verspätet geladen, auch weil sich es ganz unten befindet.
 }
 
 // Eine AJAX-Anfrage an den PHP-Endpunkt senden, um die Wünsche abzurufen
@@ -449,13 +428,13 @@ function closeButtonPopup() {
   document.getElementById('popupFrame').style.display = 'none';
 }
 
-function renderVideo() {
-  let videoContent = document.getElementById('videoContent');
+// function renderVideo() {
+//   let videoContent = document.getElementById('videoContent');
 
-  videoContent.innerHTML = `
-    <video class="video-home" id="footer-video" src = "./media/ourvideo.mp4" type = "video/mp4" autoplay loop ></video>
-    `;
-}
+//   videoContent.innerHTML = `
+//     <video class="video-home" id="footer-video" src = "./media/ourvideo.mp4" type = "video/mp4" autoplay loop ></video>
+//     `;
+// }
 
 let activatedContent = false;
 let activatedContentByAskUber = false;

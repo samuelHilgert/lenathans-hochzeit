@@ -106,7 +106,7 @@ footer {
     width: 100%;
     box-sizing: border-box;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 /**** LINK GALERY START *+***/
@@ -191,16 +191,15 @@ text-align: center;
 
 /* SECTION IMGAGE DIV */
 .section-image-div {
-    background: url('../img/wedding.JPG');
+    background: url('../img/wedding.jpg');
     width: 100%;
     box-sizing: border-box;
-    height: 450px;
+    height: 500px;
     object-fit: cover;
-    background-position-y: 25%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
+    background-position-y: 10%;
 }
-
 
 /* SECTION CONTACT */
 
