@@ -17,9 +17,9 @@ let altText = [
     'Strand Meer Selfie Sonnenuntergang',
     'Fahrrad Fahrräder Burg Ruine',
     'Holland Amsterdam Fluss Hafen Hafenstadt',
-    'blaues Gebäude Regenschirm Jonathan vor dem Gebäude Haus blaue Tür',
+    'blaues Gebäude Regenschirm Nathan vor dem Gebäude Haus blaue Tür',
     'Gesichter Bäume Wald lachen Umarmung im Arm',
-    'Lena Magdalena Tunnel von hinten',
+    'Lena Tunnel von hinten',
     'Standesamt Feier Seifenblasen Girlande Blumen Leute'
 ];
 

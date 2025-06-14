@@ -212,12 +212,12 @@ function renderAfterLogin() {
 
   aboutUSText.innerHTML = `
 <h2>Wer wir sind?</h2>
-<p>„Wir sind Lena und Jonathan, zur Zeit leben wir in Cuxhaven, nur einen Steinwurf vom Meer entfernt.
+<p>„Wir sind Lena und Nathan, zur Zeit leben wir in Cuxhaven, nur einen Steinwurf vom Meer entfernt.
 Kennengelernt haben wir uns in Hamburg, wo wir uns kurz vor dem Lockdown das erste mal zu zweit getroffen haben. Daraufhin folgten regelmäßige Jogging-Verabredungen, gemeinsames Kochen und Ausflüge in und um Hamburg. Sport machen wir immernoch gerne und seit Januar schwingen wir auch gemeinsam das Tanzbein (mehr oder weniger erfolgreich - aber überzeugt euch selbst). Auch das gemeinsame Kochen hat sich bis heute durchgezogen.
 Trotzdem haben wir natürlich nichts dagegen, ab und an lokale Restaurants zu unterstützen.
-Über Holland hat es uns von Düsseldorf nach Cuxhaven verschlagen. Von dort kann Lena ihren Master in Medizintechnik abschließen und Jonathan Motoren für Mercedes-Benz entwickeln."
+Über Holland hat es uns von Düsseldorf nach Cuxhaven verschlagen. Von dort kann Lena ihren Master in Medizintechnik abschließen und Nathan Motoren für Mercedes-Benz entwickeln."
 </p>
-<p>Liebe Grüße, Lena & Jonathan</p>
+<p>Liebe Grüße, Lena & Nathan</p>
 `;
 
   TrauungText.innerHTML = `
